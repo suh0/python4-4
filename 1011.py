@@ -1,7 +1,8 @@
-from tkinter import *  //
+from tkinter import *
+
 
 btnList=[None]*9
-fnameList=["froyo.gif","gingerbread.gif", "honeycomb.gif","icecream.gif", "jellybean.gif","kitkat.gif","lolipop.gif","marshmallow.gif","nougat.gif"]
+fnameList=["dog.gif","1.gif", "2.gif","3.gif", "4.gif","5.gif","6.gif","7.gif","8.gif"]
 photoList=[None]*9
 i, k=0,0
 xPos,yPos=0,0

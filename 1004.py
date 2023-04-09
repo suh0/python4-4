@@ -1,7 +1,7 @@
-from tkinter import * //
+from tkinter import *
 window=Tk()
 
-photo=PhotoImage(file="dog.jpg")
+photo=PhotoImage(file="dog/dog.gif")
 label1=Label(window,image=photo)
 
 label1.pack()

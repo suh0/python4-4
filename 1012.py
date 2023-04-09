@@ -1,7 +1,7 @@
-from tkinter import * //
+from tkinter import *
 from time import *
 
-fnameList=["jeju1.gif","jeju.gif","jeju3.gif","jeju4.gif","jeju5.gif","jeju6.gif","jeju7.gif","jeju8.gif","jeju9.gif"]
+fnameList=["dog.gif","2.gif","3.gif","4.gif","5.gif","6.gif","7.gif","8.gif","1.gif"]
 
 photoList=[None]*9
 num=0
@@ -11,7 +11,7 @@ def clickNext():
     num+=1
     if num>8:
         num=0
-    photo=PhotoImage(file="git/"+fnameList[num])
+    photo=PhotoImage(file="gif/"+fnameList[num])
     plabel.configure(image=photo)
     plabel.image=photo
 

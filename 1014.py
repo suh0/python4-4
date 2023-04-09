@@ -1,4 +1,4 @@
-from tkinter import * //
+from tkinter import * 
 from tkinter import messagebox
 
 def clickImage(event):
@@ -7,7 +7,7 @@ def clickImage(event):
 window=Tk()
 window.geometry("400x400")
 
-photo=PhotoImage(file="gif/rabit.gif")
+photo=PhotoImage(file="gif/1.gif")
 label1=Label(window,image=photo)
 
 label1.bind("<Button>",clickImage)

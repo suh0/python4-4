@@ -1,4 +1,4 @@
-from tkinter import * //
+from tkinter import *
 from tkinter import  messagebox
 
 def myFunc():
@@ -6,7 +6,7 @@ def myFunc():
 
 window =Tk()
 
-photo=PhotoImage(file="dog.jpg")
+photo=PhotoImage(file="dog/dog.gif")
 button1=Button(window, image=photo,command=myFunc)
 
 button1.pack()
